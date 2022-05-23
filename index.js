@@ -2,6 +2,15 @@
  function greet(userName) {
     var userName = prompt("What is your name?");
     alert("Hello " + userName + "!");
-    var age = prompt("How old are you?");
-    alert("Wow you're " + parseInt(age,String) + "!");
+    var userAge = prompt("How old are you?");
+    alert(parseInt(userAge,String));
+    window.confirm("Have you had a birthday this year?");
+
+    
+    //if (confirm == true) {
+      // alert(new Date().getFullYear() - userAge);
+    //} else {
+     //  alert(newdate().getFullYear()- (userAge + 1));
+    //}   
+
 }
