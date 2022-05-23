@@ -13,4 +13,10 @@
      //  alert(newdate().getFullYear()- (userAge + 1));
     //}   
 
+    var getyear = new Date();
+    if (confirm()== true) {
+        alert(new Date().getFullYear() - userAge);
+    } else (confirm()); {
+        alert(new Date().getFullYear() - userAge + 1 );
+    }
 }
