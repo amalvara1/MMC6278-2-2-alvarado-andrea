@@ -6,17 +6,14 @@
     alert(parseInt(userAge,String));
     window.confirm("Have you had a birthday this year?");
 
-    
-    //if (confirm == true) {
-      // alert(new Date().getFullYear() - userAge);
-    //} else {
-     //  alert(newdate().getFullYear()- (userAge + 1));
-    //}   
 
-    var getyear = new Date();
+    var today = new Date();
     if (confirm()== true) {
-        alert(new Date().getFullYear() - userAge);
-    } else (confirm()); {
-        alert(new Date().getFullYear() - userAge + 1 );
+        alert((new Date().getFullYear()) - userAge);
+        return;
+    } else {
+        alert((new Date().getFullYear() - userAge) + 1);
+        return;
     }
+   
 }
